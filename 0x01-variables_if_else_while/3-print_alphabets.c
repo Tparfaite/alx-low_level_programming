@@ -2,9 +2,11 @@
 /**
  * main - Entry point
  *
- * Return :Always 0 (success)
+ * Return: Always 0 (success)
  *
  * Description: print the lowercase and uppercase
+ *
+ * print alphabet in uppercase
  */
 int main(void)
 {
