@@ -1,20 +1,18 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prints single digits with putchar
  *
- * Return: Always 0 (success)
- *
- * prints all single digit of base ten
+ * Return: always 0.
  */
 int main(void)
 {
-	int a;
+	int n;
 
-	for (a = 0; a < 10; a++)
-	{
-		putchar(a);
-	}
-	putchar("\n");
+	for (n = 0 ; n <= 9 ; n++)
+		putchar(n + '0');
+
+	putchar('\n');
+
 	return (0);
 }
 
