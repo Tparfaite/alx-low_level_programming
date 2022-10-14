@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	int p=0;
+	int p = 0;
 
 	while (p < 10)
 	{
-		putchar(p);
+		putchar(48 + p);
 		if (p != 9)
 		{
 			putchar(',');
