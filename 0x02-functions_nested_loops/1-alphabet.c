@@ -4,13 +4,13 @@
  *
  * Return: Always 0 (success)
  *
- * print alphabets in lowercase
+ *Description:  print alphabets in lowercase
  */
 void print_alphabet(void)
 {
 	char m;
 
-	for (m = 'a'; m < 'z'; m++)
+	for (m = 'a'; m <= 'z'; m++)
 	{
 		_putchar(m);
 	}
