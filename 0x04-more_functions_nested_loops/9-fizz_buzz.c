@@ -14,22 +14,22 @@ int main(void)
 	for (num = 1; num <= 100; num++)
 	{
 		if ((num % 3) == 0 && (num % 5) == 0)
-			printf("FizzBuzz");
+			_putchar("FizzBuzz");
 
 		else if ((num % 5) == 0)
-			printf("Buzz");
+			_putchar("Buzz");
 
 		else if ((num % 3) == 0)
-			printf("Fizz");
+			_putchar("Fizz");
 
 		else
-			printf("%d", num);
+			_putchar("%d", num);
 
 		if (num == 100)
 			continue;
-		printf(" ");
+		_putchar(" ");
 	}
-	printf('\n');
+	_putchar('\n');
 
 	return (0);
 }
