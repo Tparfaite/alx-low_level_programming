@@ -42,11 +42,11 @@ int main(void)
 		}
 
 		else
-			_putchar("%d", num);
+			printf("%d", num);
 
 		if (num == 100)
 			continue;
-		_putchar(" ");
+		printf(" ");
 	}
 	_putchar('\n');
 
