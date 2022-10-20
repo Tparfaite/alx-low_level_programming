@@ -14,13 +14,32 @@ int main(void)
 	for (num = 1; num <= 100; num++)
 	{
 		if ((num % 3) == 0 && (num % 5) == 0)
-			_putchar("FizzBuzz");
+		{
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
+		}
 
 		else if ((num % 5) == 0)
-			_putchar("Buzz");
+		{
+			_putchar('B');
+			_putchar('u');
+			_putchar('z');
+			_putchar('z');
+		}
 
 		else if ((num % 3) == 0)
-			_putchar("Fizz");
+		{
+			_putchar('F');
+			_putchar('i');
+			_putchar('z');
+			_putchar('z');
+		}
 
 		else
 			_putchar("%d", num);
